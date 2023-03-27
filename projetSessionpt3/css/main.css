@@ -1,0 +1,148 @@
+body {
+  background-color: white ;
+  margin: 8px 15px 8px 10px;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 150%;
+  text-align: center;
+  color: black;
+  background-color: #f2f2f2 ;
+  padding : 5px;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 100%;
+  text-align: left;
+  color: black;
+  background-color: transparent;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 80%;
+  text-indent: 8px;
+  text-align: justify;
+  background-color: transparent;
+  margin-left: 8px;
+  margin-right: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+a:link {
+  color: red;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: overline;
+}
+
+a:hover {
+  color: green;
+}
+
+table {
+  font-size: 80%;
+  text-align: center;
+  color: black ;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid gray;
+  padding: 5px;
+  font-family: "Comic Sans MS";
+  align-self: center;
+}
+
+th, td {
+  border: 1px;
+  border-color: gray;
+  border-style: inset;
+}
+
+th {
+  color: blueviolet;
+}
+.centerForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border : none;
+}
+footer {
+  display : flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding : 5x;
+}
+.slider {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: relative;
+  overflow: hidden; /* <===  */
+  border-radius: 15px;
+}
+
+.slide {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+}
+.btn:active {
+  transform: scale(1.1);
+}
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+#iframe-map{
+  text-align: center;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src ="formvalidation.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a href="#">
+                <img src="image/nlogo.jpg" height="100" width="100" class="logo" alt="" />
+              </a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Accueil</a></li>
+              <li><a href="produits.html">Produits</a></li>
+              <li><a href="presentation.html">Presentation</a></l>
+              <li><a href="local.html">Local</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="compte.html">Compte</a></li>
+              <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <script>
+      alert("Bienvenue sur la page d'inscription");
+      </script>
+    <div class="centerForm">
+      <h1>Inscription</h1>
+    <form id="loginInformation" action="your-server-script-url" name = "inscriptionForm" onsubmit="return validateFormInscription()" method="post">
+        <fieldset>
+          Email: <input type="email" name="email">
+        </fieldset>
+        <fieldset>
+          Password: <input type="password" name="password">
+        </fieldset>
+        <fieldset>
+          Confirm Password: <input type="password" name="password2">
+        </fieldset>
+        <fieldset>
+          <input type="submit" value="Register" />
+        </fieldset>
+      </form>
+      </div>
+
+    <footer style="position: absolute; bottom: 0; width: 100%">
+      <div class="container">
+        <p>Copyright © 2023 My Website</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src ="colorchanger.js"defer></script>
+  </body>
+</html>
